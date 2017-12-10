@@ -1,0 +1,24 @@
+#top{
+    width:100%;
+
+}
+#container{
+    width:100%;
+    float: left;
+}
+#header{
+    float: left;
+    width:100%;
+}
+#left{
+    float: left;
+    width:100%;
+}
+#right{
+    float: left;
+    width:100%;
+}
+#footer{
+    float: left;
+    width:100%;
+}
