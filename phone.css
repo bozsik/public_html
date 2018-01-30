@@ -1,24 +1,49 @@
-#top{
+body{
+
+    background-image: url("img/honey-background.jpg");
+    background-repeat: repeat-y;
+}
+
+#container{
+    padding:0;
     width:100%;
+    height:1100px;
 
 }
-#container{
+#top{
+    height:100px;
     width:100%;
-    float: left;
+    background: rgba(0, 0, 0, 0.61);
 }
 #header{
     float: left;
     width:100%;
+    height:800px;
+}
+
+
+#left1{
+    width: 100%;
+    height: 20%;
+    float: left;
 }
 #left{
     float: left;
+    height: 80%;
     width:100%;
+}
+#left img{
+    height:100%;
 }
 #right{
-    float: left;
+background-color: yellow;
     width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 #footer{
-    float: left;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    bottom: 0;
     width:100%;
 }
